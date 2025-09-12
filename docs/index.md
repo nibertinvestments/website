@@ -20,7 +20,7 @@ Welcome to the comprehensive documentation for this website development reposito
 - [**Deployment Guide**](deployment.md) - Deployment strategies and instructions
 
 ### Development Guidelines
-- [**Agent Instructions**](../agent-instructions.md) - Coding standards and best practices
+- [**Agent Instructions**](../Copilot-Instructions.md) - Coding standards and best practices
 - [**Configuration Files**](../README.md#configuration) - Environment and build configuration
 
 ## 📖 Documentation by Category
@@ -37,7 +37,7 @@ Welcome to the comprehensive documentation for this website development reposito
 
 | Document | Purpose | Audience |
 |----------|---------|----------|
-| [Agent Instructions](../agent-instructions.md) | Coding standards and best practices | Developers |
+| [Agent Instructions](../Copilot-Instructions.md) | Coding standards and best practices | Developers |
 | [Contributing Guide](../CONTRIBUTING.md) | Contribution workflow and standards | Contributors |
 | [Architecture](architecture.md) | System design and patterns | Developers, Architects |
 
@@ -67,21 +67,21 @@ Welcome to the comprehensive documentation for this website development reposito
 ### By Technology Stack
 
 #### Frontend Technologies
-- **React**: [Setup](development-setup.md#react-project), [Best Practices](../agent-instructions.md#react-best-practices), [Deployment](deployment.md#react-application-vercel)
-- **Vue.js**: [Setup](development-setup.md#vuejs-project), [Best Practices](../agent-instructions.md#vuejs-best-practices), [Deployment](deployment.md#vuejs-application-netlify)
-- **Angular**: [Setup](development-setup.md#angular-project), [Best Practices](../agent-instructions.md#angular-best-practices), [Deployment](deployment.md#angular-application-firebase-hosting)
-- **HTML/CSS**: [Setup](../README.md#static-websites), [Best Practices](../agent-instructions.md#htmlcss-best-practices), [Deployment](deployment.md#static-site-deployment)
+- **React**: [Setup](development-setup.md#react-project), [Best Practices](../Copilot-Instructions.md#react-best-practices), [Deployment](deployment.md#react-application-vercel)
+- **Vue.js**: [Setup](development-setup.md#vuejs-project), [Best Practices](../Copilot-Instructions.md#vuejs-best-practices), [Deployment](deployment.md#vuejs-application-netlify)
+- **Angular**: [Setup](development-setup.md#angular-project), [Best Practices](../Copilot-Instructions.md#angular-best-practices), [Deployment](deployment.md#angular-application-firebase-hosting)
+- **HTML/CSS**: [Setup](../README.md#static-websites), [Best Practices](../Copilot-Instructions.md#htmlcss-best-practices), [Deployment](deployment.md#static-site-deployment)
 
 #### Backend Technologies
-- **Node.js**: [Setup](development-setup.md#nodejs-setup), [Best Practices](../agent-instructions.md#nodejs-best-practices), [Deployment](deployment.md#nodejs-on-heroku)
-- **Python**: [Setup](development-setup.md#python-setup), [Best Practices](../agent-instructions.md#python-best-practices), [Deployment](deployment.md#python-django-on-digitalocean)
-- **PHP**: [Setup](development-setup.md#php-setup), [Best Practices](../agent-instructions.md#php-best-practices), [Deployment](deployment.md#php-laravel-on-shared-hosting)
-- **Ruby**: [Setup](development-setup.md#ruby-setup), [Best Practices](../agent-instructions.md#database-best-practices)
+- **Node.js**: [Setup](development-setup.md#nodejs-setup), [Best Practices](../Copilot-Instructions.md#nodejs-best-practices), [Deployment](deployment.md#nodejs-on-heroku)
+- **Python**: [Setup](development-setup.md#python-setup), [Best Practices](../Copilot-Instructions.md#python-best-practices), [Deployment](deployment.md#python-django-on-digitalocean)
+- **PHP**: [Setup](development-setup.md#php-setup), [Best Practices](../Copilot-Instructions.md#php-best-practices), [Deployment](deployment.md#php-laravel-on-shared-hosting)
+- **Ruby**: [Setup](development-setup.md#ruby-setup), [Best Practices](../Copilot-Instructions.md#database-best-practices)
 - **Java**: [Setup](development-setup.md#java-setup), [Architecture](architecture.md#backend-architecture)
 - **.NET**: [Setup](development-setup.md#net-setup), [Architecture](architecture.md#backend-architecture)
 
 #### Database Technologies
-- **PostgreSQL**: [Setup](development-setup.md#postgresql), [Best Practices](../agent-instructions.md#database-best-practices), [Deployment](deployment.md#postgresql-on-cloud-providers)
+- **PostgreSQL**: [Setup](development-setup.md#postgresql), [Best Practices](../Copilot-Instructions.md#database-best-practices), [Deployment](deployment.md#postgresql-on-cloud-providers)
 - **MySQL**: [Setup](development-setup.md#mysql), [Architecture](architecture.md#data-architecture)
 - **MongoDB**: [Setup](development-setup.md#mongodb), [Deployment](deployment.md#mongodb-atlas)
 - **Redis**: [Setup](development-setup.md#redis), [Architecture](architecture.md#performance-architecture)
@@ -91,11 +91,11 @@ Welcome to the comprehensive documentation for this website development reposito
 #### First-Time Setup
 1. [README.md](../README.md) - Start here
 2. [Development Setup](development-setup.md) - Environment setup
-3. [Agent Instructions](../agent-instructions.md) - Coding guidelines
+3. [Agent Instructions](../Copilot-Instructions.md) - Coding guidelines
 
 #### Adding New Features
 1. [Contributing Guide](../CONTRIBUTING.md) - Contribution workflow
-2. [Agent Instructions](../agent-instructions.md) - Coding standards
+2. [Agent Instructions](../Copilot-Instructions.md) - Coding standards
 3. [API Documentation](api.md) - API integration
 
 #### Deployment
@@ -113,7 +113,7 @@ Welcome to the comprehensive documentation for this website development reposito
 ### Essential Links
 - 📋 [Quick Start](../README.md#getting-started)
 - ⚙️ [Setup Guide](development-setup.md)
-- 📝 [Coding Standards](../agent-instructions.md)
+- 📝 [Coding Standards](../Copilot-Instructions.md)
 - 🚀 [Deploy Guide](deployment.md)
 
 ### Reference Links

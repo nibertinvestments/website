@@ -64,7 +64,7 @@ website/
 ├── .gitignore            # Git ignore rules
 ├── README.md             # This file
 ├── License.md            # License information
-└── agent-instructions.md # Development guidelines
+└── Copilot-Instructions.md # Development guidelines
 ```
 
 ## 🛠️ Getting Started
@@ -152,7 +152,7 @@ cd my-website-project
 ```
 
 ### 2. Development Process
-- Follow the guidelines in `agent-instructions.md`
+- Follow the guidelines in `Copilot-Instructions.md`
 - Use feature branches for development
 - Write tests for your code
 - Follow code review processes
@@ -278,7 +278,7 @@ jobs:
 ## 📖 Documentation
 
 ### Available Documentation
-- [`agent-instructions.md`](./agent-instructions.md) - Development guidelines and best practices
+- [`Copilot-Instructions.md`](./Copilot-Instructions.md) - Development guidelines and best practices
 - [`License.md`](./License.md) - MIT License terms
 - Framework-specific documentation in respective directories
 
@@ -294,7 +294,7 @@ jobs:
    ```bash
    git checkout -b feature/amazing-feature
    ```
-3. **Follow the development guidelines** in `agent-instructions.md`
+3. **Follow the development guidelines** in `Copilot-Instructions.md`
 4. **Write tests** for your changes
 5. **Commit your changes**
    ```bash
