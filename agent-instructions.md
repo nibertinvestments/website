@@ -241,6 +241,81 @@ This document outlines best practices and coding standards for all development w
 - Use UPPER_SNAKE_CASE for constants
 - Use descriptive names for all identifiers
 
+## Project Initialization
+
+### Root File Creation
+When starting a new website project, always create essential root files to establish proper project structure and configuration. Each technology stack requires specific root files for optimal development workflow.
+
+#### Essential Root Files by Technology
+
+**HTML/CSS/JavaScript Projects:**
+- `index.html` - Main entry point with proper DOCTYPE and meta tags
+- `style.css` or `styles.css` - Main stylesheet file
+- `script.js` or `main.js` - Main JavaScript file
+- `favicon.ico` - Website favicon
+- `robots.txt` - Search engine crawling instructions
+- `sitemap.xml` - Site structure for SEO
+
+**React Projects:**
+- `package.json` - Project dependencies and scripts
+- `src/index.js` - Application entry point
+- `src/App.js` - Main application component
+- `public/index.html` - HTML template
+- `public/manifest.json` - Progressive Web App manifest
+- `.env` - Environment variables template
+
+**Vue.js Projects:**
+- `package.json` - Project dependencies and scripts
+- `src/main.js` - Application entry point
+- `src/App.vue` - Root Vue component
+- `public/index.html` - HTML template
+- `vue.config.js` - Vue CLI configuration
+
+**Angular Projects:**
+- `package.json` - Project dependencies and scripts
+- `src/main.ts` - Application bootstrap
+- `src/app/app.component.ts` - Root component
+- `src/index.html` - HTML template
+- `angular.json` - Angular CLI configuration
+
+**Node.js Backend Projects:**
+- `package.json` - Project dependencies and scripts
+- `index.js` or `server.js` - Main server file
+- `.env` - Environment variables template
+- `app.js` - Express application setup (if using Express)
+
+**Python Backend Projects:**
+- `requirements.txt` - Python dependencies
+- `main.py` or `app.py` - Main application file
+- `.env` - Environment variables template
+- `wsgi.py` - WSGI application entry point (for production)
+
+**PHP Projects:**
+- `composer.json` - PHP dependencies (if using Composer)
+- `index.php` - Main entry point
+- `.htaccess` - Apache server configuration
+- `config.php` - Application configuration
+
+#### Universal Root Files
+Regardless of technology stack, every website project should include:
+- `README.md` - Project documentation and setup instructions
+- `.gitignore` - Git ignore patterns for the specific technology
+- `LICENSE` - Project license information
+- `.env.example` - Template for environment variables
+- `CHANGELOG.md` - Version history and changes
+
+### Project Initialization Checklist
+- [ ] Create appropriate root files for chosen technology stack
+- [ ] Set up proper directory structure following conventions
+- [ ] Initialize version control with `git init`
+- [ ] Create initial `.gitignore` file
+- [ ] Set up development environment configuration
+- [ ] Document setup instructions in README.md
+- [ ] Configure build tools and scripts
+- [ ] Set up linting and formatting tools
+- [ ] Create initial test files and configuration
+- [ ] Set up CI/CD pipeline configuration files
+
 ## Code Review Guidelines
 
 ### Review Checklist
