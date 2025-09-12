@@ -674,7 +674,7 @@ netstat -tulpn
 After completing the setup:
 
 1. **Read the project documentation** in the `docs/` directory
-2. **Review the coding guidelines** in `agent-instructions.md`
+2. **Review the coding guidelines** in `Copilot-Instructions.md`
 3. **Choose your technology stack** and navigate to the appropriate directory
 4. **Set up your first project** following the framework-specific guides
 5. **Configure your development workflow** with linting, testing, and pre-commit hooks
