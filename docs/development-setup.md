@@ -22,8 +22,8 @@ This guide will help you set up your development environment for working with th
 
 ### Supported Operating Systems
 - **Windows**: 10/11 (with WSL2 recommended)
-- **macOS**: 10.15+ (Catalina or later)
-- **Linux**: Ubuntu 20.04+, Debian 11+, Fedora 35+, CentOS 8+
+- **macOS**: 12+ (Monterey or later)
+- **Linux**: Ubuntu 22.04+, Debian 12+, Fedora 38+, CentOS 9+
 
 ## Operating System Setup
 
@@ -118,7 +118,7 @@ cat ~/.ssh/id_ed25519.pub
 **Linux/macOS:**
 ```bash
 # Install NVM
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
 # Reload shell configuration
 source ~/.bashrc  # or ~/.zshrc
@@ -180,13 +180,13 @@ echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bashrc
 source ~/.bashrc
 
 # Install Python
-pyenv install 3.11.0
-pyenv global 3.11.0
+pyenv install 3.12.0
+pyenv global 3.12.0
 ```
 
 **macOS (using Homebrew):**
 ```bash
-brew install python@3.11
+brew install python@3.12
 brew install pyenv
 ```
 
@@ -245,8 +245,8 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 git clone https://github.com/rbenv/ruby-build.git ~/.rbenv/plugins/ruby-build
 
 # Install Ruby
-rbenv install 3.1.0
-rbenv global 3.1.0
+rbenv install 3.3.0
+rbenv global 3.3.0
 
 # Install Rails
 gem install rails bundler
@@ -261,7 +261,7 @@ curl -s "https://get.sdkman.io" | bash
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Install Java
-sdk install java 17.0.2-open
+sdk install java 21.0.2-open
 sdk install maven
 sdk install gradle
 ```
@@ -271,12 +271,12 @@ sdk install gradle
 **Linux:**
 ```bash
 # Install Microsoft package repository
-wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+wget https://packages.microsoft.com/config/ubuntu/22.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 
 # Install .NET SDK
 sudo apt update
-sudo apt install dotnet-sdk-6.0
+sudo apt install dotnet-sdk-8.0
 ```
 
 **macOS:**

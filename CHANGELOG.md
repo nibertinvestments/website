@@ -22,6 +22,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Repository structure organized for multi-technology website development
+- Updated copyright year to 2025 in license file
+- Updated all documentation dates to September 2025
+- Refreshed development setup guide with current tool versions
 
 ### Deprecated
 - Nothing
@@ -30,11 +33,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Nothing
 
 ### Fixed
-- Nothing
+- Inconsistent dates across documentation files
+- Outdated version references in setup guides
 
 ### Security
 - Environment variables template excludes sensitive data from version control
 - Security best practices documented in agent instructions
+
+## [1.0.1] - 2025-09-12
+
+### Changed
+- Updated all documentation to current date (September 2025)
+- Updated copyright year to 2025
+- Refreshed version references in documentation
 
 ## [1.0.0] - 2024-12-12
 

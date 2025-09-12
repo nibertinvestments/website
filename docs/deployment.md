@@ -23,7 +23,7 @@ This guide covers deployment strategies for various types of web applications in
      command = "npm run build"
 
    [build.environment]
-     NODE_VERSION = "16"
+     NODE_VERSION = "20"
 
    [[redirects]]
      from = "/*"
@@ -82,15 +82,15 @@ This guide covers deployment strategies for various types of web applications in
      deploy:
        runs-on: ubuntu-latest
        steps:
-         - uses: actions/checkout@v2
+         - uses: actions/checkout@v4
          - name: Setup Node.js
-           uses: actions/setup-node@v2
+           uses: actions/setup-node@v4
            with:
-             node-version: '16'
+             node-version: '20'
          - run: npm install
          - run: npm run build
          - name: Deploy to GitHub Pages
-           uses: peaceiris/actions-gh-pages@v3
+           uses: peaceiris/actions-gh-pages@v4
            with:
              github_token: ${{ secrets.GITHUB_TOKEN }}
              publish_dir: ./dist
@@ -208,10 +208,10 @@ This guide covers deployment strategies for various types of web applications in
 
 1. **Requirements.txt**
    ```
-   Django==4.2.0
-   gunicorn==20.1.0
-   psycopg2-binary==2.9.5
-   whitenoise==6.4.0
+   Django==5.1.0
+   gunicorn==22.0.0
+   psycopg2-binary==2.9.9
+   whitenoise==6.7.0
    ```
 
 2. **WSGI Configuration**
@@ -385,12 +385,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '20'
         cache: 'npm'
     
     - name: Install dependencies
@@ -407,12 +407,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     
     - name: Setup Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '20'
         cache: 'npm'
     
     - name: Install dependencies
@@ -422,7 +422,7 @@ jobs:
       run: npm run build
     
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: build-files
         path: dist/
@@ -434,7 +434,7 @@ jobs:
     
     steps:
     - name: Download build artifacts
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: build-files
         path: dist/
@@ -455,7 +455,7 @@ stages:
   - deploy
 
 variables:
-  NODE_VERSION: "16"
+  NODE_VERSION: "20"
 
 test:
   stage: test

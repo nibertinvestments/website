@@ -37,8 +37,8 @@ Examples of unacceptable behavior include:
 ### Prerequisites
 Before contributing, make sure you have:
 - Git installed and configured
-- Node.js (v16 or higher) for JavaScript projects
-- Python (v3.8 or higher) for Python projects
+- Node.js (v20 or higher) for JavaScript projects
+- Python (v3.10 or higher) for Python projects
 - Appropriate development tools for your chosen technology stack
 
 ### Fork and Clone

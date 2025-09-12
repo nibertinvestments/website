@@ -73,8 +73,8 @@ website/
 
 Ensure you have the following installed on your system:
 
-- **Node.js** (v14 or higher) - [Download](https://nodejs.org/)
-- **Python** (v3.8 or higher) - [Download](https://python.org/)
+- **Node.js** (v20 or higher) - [Download](https://nodejs.org/)
+- **Python** (v3.10 or higher) - [Download](https://python.org/)
 - **Git** - [Download](https://git-scm.com/)
 
 ### Quick Start
