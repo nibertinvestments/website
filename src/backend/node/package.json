@@ -1,0 +1,24 @@
+{
+  "name": "nibertinvestments-api",
+  "version": "1.0.0",
+  "description": "Backend API for Nibert Investments showcase website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["express", "api", "backend", "portfolio", "showcase"],
+  "author": "Nibert Investments",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
