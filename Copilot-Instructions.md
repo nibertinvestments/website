@@ -109,7 +109,7 @@ This document outlines best practices and coding standards for all development w
 - Follow PSR standards (PSR-1, PSR-2, PSR-4)
 - Use Composer for dependency management
 - Implement proper namespace organization
-- Use modern PHP features (7.4+, 8.0+)
+- Use modern PHP features (8.1+, 8.2+, 8.3+)
 - Follow MVC architectural patterns
 - Implement proper security practices
 - Use frameworks like Laravel, Symfony properly

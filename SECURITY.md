@@ -126,7 +126,7 @@ jobs:
   security:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
       - name: Run dependency audit
         run: npm audit
@@ -137,7 +137,7 @@ jobs:
           path: ./
           
       - name: Run SAST scan
-        uses: github/super-linter@v4
+        uses: github/super-linter@v5
         env:
           VALIDATE_ALL_CODEBASE: true
 ```

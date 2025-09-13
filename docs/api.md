@@ -129,7 +129,7 @@ APIs use URL versioning:
       }
     ]
   },
-  "timestamp": "2024-01-15T10:30:00Z"
+  "timestamp": "2025-09-12T10:30:00Z"
 }
 ```
 
@@ -279,7 +279,7 @@ Authorization: Bearer jwt-token-here
       "name": "John Doe",
       "email": "john@example.com",
       "role": "user",
-      "created_at": "2024-01-01T00:00:00Z"
+      "created_at": "2025-01-01T00:00:00Z"
     }
   ],
   "pagination": {
@@ -374,8 +374,8 @@ Get list of posts.
         "id": 1,
         "name": "Technology"
       },
-      "published_at": "2024-01-15T10:00:00Z",
-      "created_at": "2024-01-14T15:30:00Z"
+      "published_at": "2025-09-12T10:00:00Z",
+      "created_at": "2025-09-11T15:30:00Z"
     }
   ],
   "pagination": {
